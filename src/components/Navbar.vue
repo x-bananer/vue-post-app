@@ -1,5 +1,6 @@
 <template>
   <div class="navbar">
+    <div class="">Test</div>
     <div @click="$router.push('/')">Vue 3</div>
     <div class="navbar__btns">
       <my-button @click="$router.push('/posts')">Посты</my-button>
